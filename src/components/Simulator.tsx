@@ -43,7 +43,7 @@ export function Simulator() {
             <div className="absolute inset-[-100%] animate-[spin_3s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#000000_0%,#00d1e8_40%,#00d1e8_60%,#000000_100%)] dark:bg-[conic-gradient(from_90deg_at_50%_50%,#0a1022_0%,#00d1e8_40%,#00d1e8_60%,#0a1022_100%)] opacity-100 will-change-transform" />
 
             {/* Content Container */}
-            <div className="relative flex flex-col items-center justify-between h-full w-full rounded-[calc(1.5rem-2px)] bg-white dark:bg-bg-card p-8 lg:p-12 text-center lg:text-left">
+            <div className="relative flex flex-col items-center justify-between h-full w-full rounded-[calc(1.5rem-2px)] bg-bg-card p-8 lg:p-12 text-center lg:text-left">
 
                 {/* Top Control */}
                 <div className="space-y-6 text-center z-20">
