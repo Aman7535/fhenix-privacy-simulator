@@ -1,5 +1,7 @@
 # Fhenix Privacy Simulator
 
+Live Demo: [**fhenix-privacy-simulator.vercel.app**](https://fhenix-privacy-simulator.vercel.app)
+
 This project is a front-end–only educational simulator designed to help users understand privacy concepts described in the Fhenix documentation.
 
 It provides an interactive visualization of the conceptual model behind confidential computation using Fully Homomorphic Encryption (FHE).
@@ -39,7 +41,31 @@ This project simulates the difference between a traditional **Public Blockchain*
 - **Animation**: [Framer Motion](https://www.framer.com/motion/)
 - **Language**: TypeScript
 
-## 🚀 Getting Started
+
+## 📂 Project Structure
+
+```bash
+fhenix-privacy-simulator/
+├── public/
+│   └── screenshot.png       # Preview image
+├── src/
+│   ├── app/
+│   │   ├── favicon.ico
+│   │   ├── globals.css      # Strict CSS Variable Theme System
+│   │   ├── layout.tsx       # Theme State Management
+│   │   └── page.tsx         # Main Landing Page
+│   └── components/
+│       ├── Simulator.tsx            # Core Logic Container
+│       ├── FlowVisualizer.tsx       # Data Pipeline Animation
+│       ├── ModeToggle.tsx           # Public/FHE Switch
+│       ├── ThemeToggle.tsx          # Dark/Light Switch
+│       ├── StageNode.tsx            # Pipeline Step Component
+│       └── ApplicationPatterns.tsx  # Educational Cards
+├── tailwind.config.ts       # Tailwind v4 Config
+└── package.json
+```
+
+## �🚀 Getting Started
 
 1.  **Clone the Repository**:
     ```bash
